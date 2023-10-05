@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DiceCardComponent } from './dice-card/dice-card.component';
+import { RollsHistoryComponent } from './rolls-history/rolls-history.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DiceCardComponent,
+    RollsHistoryComponent
   ],
   imports: [
     BrowserModule,

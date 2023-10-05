@@ -1,0 +1,30 @@
+.dice-card{
+    margin: 0 auto;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    text-align: center; 
+}
+.dice-image{
+    height: 150px;
+    width: 150px;
+    transition: transform 0.2s ease-in-out;
+    user-select: none;
+}
+.dice-image:hover{
+    transform: scale(1.07);
+}
+.dice-text{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.dice-card button{
+    border: 0px;
+    background-color: transparent;
+}
+.last-roll{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 3px ;
+}
